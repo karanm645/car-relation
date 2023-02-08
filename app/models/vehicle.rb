@@ -6,4 +6,6 @@ class Vehicle < ApplicationRecord
   validates_presence_of :fuel_economy
   validates_presence_of :fuel
   validates_presence_of :electric_range
+
+  belongs_to :user
 end 
