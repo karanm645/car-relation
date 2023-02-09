@@ -10,8 +10,4 @@ RSpec.describe Vehicle, type: :model do
     it {should validate_presence_of :fuel}
     it {should validate_presence_of :electric_range}
   end 
-
-  describe 'relationships' do 
-    it {should belong_to(:user)}
-  end 
 end 

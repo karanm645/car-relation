@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/rmosolgo/graphiql-rails.git
+  revision: 6b34eb17bf13262eef6edf9a069cfc69b5db9708
+  branch: master
+  specs:
+    graphiql-rails (1.8.0)
+      railties
+      sprockets-rails
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -95,9 +104,6 @@ GEM
     faraday-net_http (3.0.2)
     globalid (1.1.0)
       activesupport (>= 5.0)
-    graphiql-rails (1.8.0)
-      railties
-      sprockets-rails
     graphql (2.0.16)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
@@ -229,7 +235,7 @@ DEPENDENCIES
   capybara
   debug
   faraday
-  graphiql-rails
+  graphiql-rails!
   graphql
   launchy
   orderly

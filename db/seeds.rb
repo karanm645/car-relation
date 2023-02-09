@@ -6,7 +6,4 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-
-karan = User.create!(name: "Karan Mehta", street: "124 S J", city: "Goliad", state: "TX", zip_code: 77963)
-
 lambo = Vehicle.create(photo: "https://afdc.energy.gov/vehicles/search/files/u/light_autos/photos/13145/photo_upload/d166144c0f6d82e81737ae232e55da9e.jpg?105c20c4e2", year: 2023, make: "Audi", model: "A8L", fuel_economy:"10", fuel: "Hybrid Electric", electric_range: "10", user_id: karan.id )

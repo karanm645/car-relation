@@ -12,6 +12,5 @@ module Types
     field :updated_at, GraphQL::Types::ISO8601DateTime, null: false
     field :fuel, String
     field :electric_range, String
-    field :user_id, Integer
   end
 end
